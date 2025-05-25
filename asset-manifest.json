@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Hamza-Madani/static/css/main.6e0a5d84.css",
-    "main.js": "/Hamza-Madani/static/js/main.2daecfb8.js",
+    "main.js": "/Hamza-Madani/static/js/main.10e78cf2.js",
     "static/js/453.b05d8aa5.chunk.js": "/Hamza-Madani/static/js/453.b05d8aa5.chunk.js",
     "static/media/mock10.png": "/Hamza-Madani/static/media/mock10.2d05b02ba569a430a255.png",
     "static/media/mock09.png": "/Hamza-Madani/static/media/mock09.e18677ccfc932e52d754.png",
@@ -17,11 +17,11 @@
     "static/media/mock03.png": "/Hamza-Madani/static/media/mock03.a4600719e0b5d2a3155b.png",
     "index.html": "/Hamza-Madani/index.html",
     "main.6e0a5d84.css.map": "/Hamza-Madani/static/css/main.6e0a5d84.css.map",
-    "main.2daecfb8.js.map": "/Hamza-Madani/static/js/main.2daecfb8.js.map",
+    "main.10e78cf2.js.map": "/Hamza-Madani/static/js/main.10e78cf2.js.map",
     "453.b05d8aa5.chunk.js.map": "/Hamza-Madani/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6e0a5d84.css",
-    "static/js/main.2daecfb8.js"
+    "static/js/main.10e78cf2.js"
   ]
 }
