@@ -8,6 +8,10 @@ import { faDatabase } from "@fortawesome/free-solid-svg-icons";
 
 const labelsFirst = [
     "React",
+    "Angular",
+    "PHP",
+    "Node.js",
+    "Express.js",
     "TypeScript",
     "JavaScript",
     "HTML5",
@@ -16,20 +20,42 @@ const labelsFirst = [
     "Flask",
     "Python",
     "SQL",
+    "NoSQL",
     "PostgreSQL",
-    "Postman"
+    "Postman",
+    "JAVA",
+    "C++",
+    "C#",
+    "Bash",
+    "Shell scripting",
+    "PL/SQL",
 ];
 
 const labelsSecond = [
     "Git",
     "GitHub Actions",
     "Docker",
+    "Docker HUB",
     "AWS",
     "Azure",
     "Linux",
     "Snowflake",
     "Pandas",
     "Selenium",
+    "Grafana",
+    "GitHub Actions",
+    "GitLab CI/CD",
+    "Jenkins",
+    "CircleCI",
+    "Podman",
+    "Kubernetes",
+    "Helm",
+    "Terraform",
+    "Ansible",
+    "Pulumi",
+    "Vagrant",
+    "Bash",
+    "Shell Script",
 ];
 
 const labelsThird = [
@@ -40,6 +66,15 @@ const labelsThird = [
     "Hugging Face",
     "LlamaIndex",
     "Streamlit",
+    "PyTorch",
+    "TensorFlow",
+    "Keras",
+    "Scikit-learn",
+    "XGBoost",
+    "LightGBM",
+    "spaCy",
+    "NLTK",
+    "OpenCV"
 ];
 
 function Expertise() {
@@ -84,41 +119,7 @@ function Expertise() {
                     </div>
                 </div>
 
-                <div className="skill">
-                    <FontAwesomeIcon icon={faPython} size="3x"/>
-                    <h3>GenAI & LLM</h3>
-                    <p>Stay relevant in the market by leveraging the latest AI models in your projects. I have professional experience building enterprise grade GenAI-enabled solutions to empower intelligent decision making.</p>
-                    <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
-                        {labelsThird.map((label, index) => (
-                            <Chip key={index} className='chip' label={label} />
-                        ))}
-                    </div>
-                </div>
 
-                <div className="skill">
-                    <FontAwesomeIcon icon={faDatabase} size="3x"/>
-                    <h3>GenAI & LLM</h3>
-                    <p>Stay relevant in the market by leveraging the latest AI models in your projects. I have professional experience building enterprise grade GenAI-enabled solutions to empower intelligent decision making.</p>
-                    <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
-                        {labelsThird.map((label, index) => (
-                            <Chip key={index} className='chip' label={label} />
-                        ))}
-                    </div>
-                </div>
-
-                <div className="skill">
-                    <FontAwesomeIcon icon={faLinux} size="3x"/>
-                    <h3>GenAI & LLM</h3>
-                    <p>Stay relevant in the market by leveraging the latest AI models in your projects. I have professional experience building enterprise grade GenAI-enabled solutions to empower intelligent decision making.</p>
-                    <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
-                        {labelsThird.map((label, index) => (
-                            <Chip key={index} className='chip' label={label} />
-                        ))}
-                    </div>
-                </div>
             </div>
         </div>
     </div>

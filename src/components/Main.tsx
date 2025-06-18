@@ -2,6 +2,7 @@ import React from "react";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
+import InsertDriveFileIcon from '@mui/icons-material/InsertDriveFile';
 import '../assets/styles/Main.scss';
 
 function Main() {
@@ -17,7 +18,7 @@ function Main() {
             <a href="https://github.com/Hamza-Eng" target="_blank" rel="noreferrer"><GitHubIcon/></a>
             <a href="https://www.linkedin.com/in/hamza-madani/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
             <a href="mailto:madani.hamza@outlook.com" target="_blank" rel="noreferrer"><EmailIcon/></a>
-
+            <a href="https://drive.google.com/file/d/1Eb4NGSiarywSbwQMuCZKGvoDqXRt15qx/view?usp=drive_link" target="_blank" rel="noreferrer" title="See CV"><InsertDriveFileIcon/></a>
           </div>
           <h1>Hamza Madani</h1>
           <p>Full Stack Engineer</p>
@@ -26,6 +27,7 @@ function Main() {
             <a href="https://github.com/Hamza-Eng" target="_blank" rel="noreferrer"><GitHubIcon/></a>
             <a href="https://www.linkedin.com/in/hamza-madani/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
             <a href="mailto:madani.hamza@outlook.com" target="_blank" rel="noreferrer"><EmailIcon/></a>
+            <a href="https://drive.google.com/file/d/1Eb4NGSiarywSbwQMuCZKGvoDqXRt15qx/view?usp=drive_link" target="_blank" rel="noreferrer" title="See CV"><InsertDriveFileIcon/></a>
           </div>
         </div>
       </div>
