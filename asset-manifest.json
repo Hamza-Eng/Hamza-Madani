@@ -1,11 +1,8 @@
 {
   "files": {
     "main.css": "/Hamza-Madani/static/css/main.6e0a5d84.css",
-    "main.js": "/Hamza-Madani/static/js/main.0325dce7.js",
+    "main.js": "/Hamza-Madani/static/js/main.6246735c.js",
     "static/js/453.b05d8aa5.chunk.js": "/Hamza-Madani/static/js/453.b05d8aa5.chunk.js",
-    "static/media/mock10.png": "/Hamza-Madani/static/media/mock10.2d05b02ba569a430a255.png",
-    "static/media/mock09.png": "/Hamza-Madani/static/media/mock09.e18677ccfc932e52d754.png",
-    "static/media/mock08.png": "/Hamza-Madani/static/media/mock08.13f46873fdbd382f4b76.png",
     "static/media/mock04.png": "/Hamza-Madani/static/media/mock04.f7b5679efade992a078c.png",
     "static/media/Stadium-Booking-App-Screens.png": "/Hamza-Madani/static/media/Stadium-Booking-App-Screens.cb61baa8b2af4040f38b.png",
     "static/media/bg-light.png": "/Hamza-Madani/static/media/bg-light.bac0efb485244a522981.png",
@@ -13,15 +10,14 @@
     "static/media/mock05.png": "/Hamza-Madani/static/media/mock05.4faafa70d200d1519a34.png",
     "static/media/mock06.png": "/Hamza-Madani/static/media/mock06.ea816617e0d0fa0f63ca.png",
     "static/media/bg-dark.png": "/Hamza-Madani/static/media/bg-dark.f420c6b8458af72de935.png",
-    "static/media/mock02.png": "/Hamza-Madani/static/media/mock02.bced48ae9cdda3acf1a3.png",
     "static/media/mock03.png": "/Hamza-Madani/static/media/mock03.a4600719e0b5d2a3155b.png",
     "index.html": "/Hamza-Madani/index.html",
     "main.6e0a5d84.css.map": "/Hamza-Madani/static/css/main.6e0a5d84.css.map",
-    "main.0325dce7.js.map": "/Hamza-Madani/static/js/main.0325dce7.js.map",
+    "main.6246735c.js.map": "/Hamza-Madani/static/js/main.6246735c.js.map",
     "453.b05d8aa5.chunk.js.map": "/Hamza-Madani/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6e0a5d84.css",
-    "static/js/main.0325dce7.js"
+    "static/js/main.6246735c.js"
   ]
 }
