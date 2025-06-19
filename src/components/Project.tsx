@@ -10,27 +10,59 @@ import mock08 from '../assets/images/mock08.png';
 import mock09 from '../assets/images/mock09.png';
 import mock10 from '../assets/images/mock10.png';
 import '../assets/styles/Project.scss';
+import '../assets/styles/CursorLightning.scss';
 
 function Project() {
+    React.useEffect(() => {
+        const cursor = document.createElement('div');
+        cursor.className = 'cursor-lightning';
+        document.body.appendChild(cursor);
+
+        function moveCursor(e: Event) {
+            const mouseEvent = e as MouseEvent;
+            cursor.style.left = mouseEvent.clientX - 20 + 'px';
+            cursor.style.top = mouseEvent.clientY - 20 + 'px';
+        }
+        function showCursor() {
+            cursor.classList.add('active');
+        }
+        function hideCursor() {
+            cursor.classList.remove('active');
+        }
+        const images = document.querySelectorAll('.zoom');
+        images.forEach(img => {
+            img.addEventListener('mouseenter', showCursor);
+            img.addEventListener('mouseleave', hideCursor);
+            img.addEventListener('mousemove', moveCursor);
+        });
+        return () => {
+            images.forEach(img => {
+                img.removeEventListener('mouseenter', showCursor);
+                img.removeEventListener('mouseleave', hideCursor);
+                img.removeEventListener('mousemove', moveCursor);
+            });
+            document.body.removeChild(cursor);
+        };
+    }, []);
     return(
     <div className="projects-container" id="projects">
         <h1>Personal Projects</h1>
         <div className="projects-grid">
-            <div className="project">
+            {/* <div className="project">
                 <img src={mock10} className="zoom" alt="thumbnail" width="100%"/>
                 <h2>SMS</h2>
                 <p>Developed movie finder app with semantic search and sentiment analysis using OpenAI GPT-3.5 Turbo, Qdrant, React, and Flask.</p>
-            </div>
-            <div className="project">
+            </div> */}
+           {/*  <div className="project">
                 <img src={mock09} className="zoom" alt="thumbnail" width="100%"/>
                 <h2>High Speed Chase</h2>
                 <p>Designed, developed, and launched a 3D multiplayer racing game with C and Unity. This is available on Itch.io for gamers worldwide to enjoy.</p>
-            </div>
-            <div className="project">
+            </div> */}
+            {/* <div className="project">
                 <img src={mock08} className="zoom" alt="thumbnail" width="100%"/>
                 <h2>Astro Raiders</h2>
                 <p>Developed and released a 2D shooting game with C and Unity. This project is hosted on the Itch.io public marketplace.</p>
-            </div>
+            </div> */}
             <div className="project">
                 <img src={mock07} className="zoom" alt="thumbnail" width="100%"/>
                 <h2>Datum: Integrated Learning Platform</h2>
@@ -56,11 +88,11 @@ function Project() {
                 <h2>Programs of Study</h2>
                 <p>Designed and developed a custom component for a CMS-based platform (e.g., 'Brightspot') using Java, Handlebars, and LESS. University students can find their majors of interest through this module.</p>
             </div>
-            <div className="project">
+            {/* <div className="project">
                 <img src={mock02} className="zoom" alt="thumbnail" width="100%"/>
                 <h2>Transfer Evaluation Matrix</h2>
                 <p>Created an interactive CSV table generator with Java, Handlebars, and LESS. This project helps transfer students to quickly identify eligible credits.</p>
-            </div>
+            </div> */}
             <div className="project">
                 <img src={mock01} className="zoom" alt="thumbnail" width="100%"/>
                 <h2>Stadium Booking App </h2>

@@ -1,0 +1,17 @@
+/* Custom cursor for lighting circle effect */
+.cursor-lightning {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 0 16px 6px #8408d7, 0 0 32px 12px #00eaff80;
+  background: rgba(167, 227, 233, 0.15);
+  pointer-events: none;
+  position: fixed;
+  z-index: 9999;
+  mix-blend-mode: lighten;
+  transition: transform 0.1s, opacity 0.2s;
+  opacity: 0;
+}
+.cursor-lightning.active {
+  opacity: 1;
+}

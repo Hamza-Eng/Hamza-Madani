@@ -21,7 +21,7 @@ function Main() {
             <a href="https://drive.google.com/file/d/1Eb4NGSiarywSbwQMuCZKGvoDqXRt15qx/view?usp=drive_link" target="_blank" rel="noreferrer" title="See CV"><InsertDriveFileIcon/></a>
           </div>
           <h1>Hamza Madani</h1>
-          <p>Full Stack Engineer</p>
+          <p>Software Developer</p>
 
           <div className="mobile_social_icons">
             <a href="https://github.com/Hamza-Eng" target="_blank" rel="noreferrer"><GitHubIcon/></a>
