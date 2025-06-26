@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Hamza-Madani/static/css/main.f8fef817.css",
-    "main.js": "/Hamza-Madani/static/js/main.96d41244.js",
+    "main.js": "/Hamza-Madani/static/js/main.735e25de.js",
     "static/js/453.b05d8aa5.chunk.js": "/Hamza-Madani/static/js/453.b05d8aa5.chunk.js",
     "static/media/mock04.png": "/Hamza-Madani/static/media/mock04.f7b5679efade992a078c.png",
     "static/media/Stadium-Booking-App-Screens.png": "/Hamza-Madani/static/media/Stadium-Booking-App-Screens.cb61baa8b2af4040f38b.png",
@@ -13,11 +13,11 @@
     "static/media/mock03.png": "/Hamza-Madani/static/media/mock03.a4600719e0b5d2a3155b.png",
     "index.html": "/Hamza-Madani/index.html",
     "main.f8fef817.css.map": "/Hamza-Madani/static/css/main.f8fef817.css.map",
-    "main.96d41244.js.map": "/Hamza-Madani/static/js/main.96d41244.js.map",
+    "main.735e25de.js.map": "/Hamza-Madani/static/js/main.735e25de.js.map",
     "453.b05d8aa5.chunk.js.map": "/Hamza-Madani/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f8fef817.css",
-    "static/js/main.96d41244.js"
+    "static/js/main.735e25de.js"
   ]
 }
